@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import greenBg from "@/assets/greenbg.mp4";
+
 import { 
   Leaf, 
   Footprints, 
@@ -113,7 +115,7 @@ const Index = () => {
     playsInline
     className="absolute inset-0 w-full h-full object-cover"
   >
-    <source src="/src/assets/greenbg.mp4" type=" Video/mp4" />
+    <source src={greenBg} type=" Video/mp4" />
   </video>
   <div className="absolute inset-0 pointer-events-none">
   <div className="absolute top-1/3 left-1/4 w-3 h-3 bg-eco-lime rounded-full blur-lg animate-ping" />
