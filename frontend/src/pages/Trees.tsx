@@ -5,7 +5,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import StatCard from "@/components/stats/StatCard";
 import { 
-  TreeDeciduous, 
+  TreeDeciduous,
   Camera, 
   MapPin, 
   Clock, 
